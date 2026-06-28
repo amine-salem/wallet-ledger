@@ -1,0 +1,29 @@
+# Python bytecode — regenerated automatically, never source
+__pycache__/
+*.py[cod]
+
+# Virtual environment — reproducible from pyproject.toml, shouldn't be tracked
+.venv/
+venv/
+
+# Secrets & local config — THE important one. Never let real credentials reach git history.
+.env
+.env.*
+!.env.example
+
+# Tool caches
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/
+.coverage
+htmlcov/
+
+# Packaging artifacts
+*.egg-info/
+dist/
+build/
+
+# Editor/OS noise
+.vscode/
+.idea/
+.DS_Store
